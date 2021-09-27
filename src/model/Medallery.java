@@ -123,7 +123,7 @@ public class Medallery implements Comparable<Medallery>{
 					return -1;
 				}else {
 					//Comparacion por Nombre del pais
-					return country.compareTo(o.getCountry());
+					return o.getCountry().compareTo(country);
 				}
 			}
 			
